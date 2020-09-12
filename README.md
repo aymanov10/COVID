@@ -12,7 +12,7 @@ Objectif : Prédire si une personne est infectée en fonction des données clini
                                float64    14
                                int64       4
       * Analyses des variables manquantes : On remarque qu'on a beaucoup de Blanc , beaucoup de valeurs manquantes surtout à partir de la variable " Urine - Esterase " Du coup , ce qu on paut faire, c'est ragarder les probablitées des valeurs manquantes pour chaque variable.2 groupes de donnees (test viral 76% et test sanguin 89%)
-   ## 1-1/ Analyse de fond :
+   ## 1-2/ Analyse de fond :
       * Visualisation de la Target : negative    5086
                                      positive     558
           Nos 2 classes ne sont pas equilibrées , on a une majorite des personnes non infectées 90% .
