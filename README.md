@@ -23,5 +23,8 @@ Objectif : Prédire si une personne est infectée en fonction des données clini
       * Relation Variables / Target : Target/Blood ==> les taux de "Platlets" , " Monocytes " et " Lymphocytes " semblent different pour un porteur du Covid
                                       Target/Age ==> les individus de faible age sont tres peu contaminés mais on ne peut rien en deduire vu qu'on ne connait pas trop la signification de  la variable " Patient quantile age "
                                       Target/Age ==>  les doubles maladies sont tres raraes . 
-      
+      * Relation Variable / Variable : Taux sanguins ==> On remarque par exemple qu'il existe une forte correlation entre les variables 'Hemotocrit' , 'Hemoglobin' et 'Red bloos cells'.
+                                       Taux sangins / Age ==> tres faibles correlation entre age et taux sanguins .
+                                       Viral / Viral ==> Influenza rapid test donne de mauvais resultats , il faudrait peut etre la laisser tomber .
+                                       malade / Blood ==> Les taux sanguins entre malade et Covid-19 sont differents
 
